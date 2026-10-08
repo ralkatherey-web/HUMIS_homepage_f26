@@ -1,0 +1,13 @@
+:root{
+    --burgundy: #A12D37
+}
+body{
+    font-size: 16px;
+    h1{
+        color: var(--burgundy);
+        font-size: 2rem;
+    }
+
+
+
+}
