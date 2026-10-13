@@ -53,6 +53,9 @@ body{
                                 background-color: #505a2f;
 
                             }
+                            &.active{
+                                font-weight: bold;
+                            }
                         }
                     }
 
