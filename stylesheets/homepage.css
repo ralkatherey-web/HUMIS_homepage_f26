@@ -24,6 +24,12 @@ body {
         margin: 0 auto; /*tb rl*/
         background-color: white;
 
+        header{
+            img{
+                display: block;
+            }
+        }
+
         section.middle{
             margin: 3px 10px;
             background-image: url("../HUMIS_assets/files/uofu_medallion_rt.gif");
