@@ -1,3 +1,4 @@
+
 :root {
     --green: #676E3D;
     --uofuRed: #D8343A;
@@ -115,16 +116,6 @@ body{
                             color: var(--uofuRed);
                             font-size: 20px;
                             padding: 3px 3px;
-                        }
-                        /*p{*/
-                        /*    font-size: 13px;*/
-                        /*}*/
-                        img{
-                            &.pic-floated {
-                                float: right;
-                                margin: 0 0 15px 15px;
-                                width: 200px;
-                            }
                         }
 
                     }
