@@ -13,7 +13,7 @@ section.horizontal-two-col-layout {
             flex-direction: column;
             justify-content: space-between; /*make one at the top and bottom*/
 
-            div.contact-info {
+            div.bottom {
                 p {
                     font-size: 0.5rem;
 
