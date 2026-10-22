@@ -54,6 +54,8 @@ body {
                 }
             }
         }
+        /* @TODO: change the name */
+        /*i made this for the link in staff page */
         .shrug{
             font-size: 1rem;
             color: var(--uofuRed);
