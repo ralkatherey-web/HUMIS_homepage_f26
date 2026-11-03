@@ -146,16 +146,32 @@
                     </div>
                 </section>
 
-                <section class="contact-form">
+                <form class="contact-form">
                     <label>
                         Name:
                         <input type="text" name="name" placeholder="Enter your name"/>
                     </label>
                     <label>
                         Phome:
-                        <input type="text" name="phone" placeholder="Enter your phone number"/>
+                        <input type="text" name="phone number" placeholder="Enter your phone number"/>
                     </label>
-                </section>
+
+                    <label>
+                        Can we call you?
+                        <input type="checkbox" name="call-via phone"/>
+                    </label>
+
+                    <p>how would you prefer to be contacted</p>
+                    <label>
+                        <input type="radio" name="contact-preference" value="email"/> email<br/>
+                    </label>
+                    <label>
+                        <input type="radio" name="contact-preference" value="email"/> phone<br/>
+                    </label>
+
+                    <button type="submit">Submit</button>
+
+                </form>
 
             </main>
 
