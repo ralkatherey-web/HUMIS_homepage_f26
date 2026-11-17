@@ -32,7 +32,6 @@ body {
 
             section {
 
-
                 &.left-side {
                     display: flex;
                     flex-direction: column;
@@ -96,6 +95,9 @@ body {
 
                             &:hover {
                                 text-decoration: underline;
+                                svg{
+                                    border-bottom: 1px solid black;
+                                }
                             }
 
                             &:last-of-type {
@@ -104,8 +106,8 @@ body {
                             }
                         }
 
-                        img {
-                            padding-right: unset;
+                        svg {
+                            color: black;
                         }
 
                         &.top-nav {

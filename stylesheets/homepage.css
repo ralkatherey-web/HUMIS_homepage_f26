@@ -15,6 +15,7 @@
 :root {
     --uofuRed: #D8343A;
 }
+
 body {
     background-color: antiquewhite;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,42 +25,50 @@ body {
         margin: 0 auto; /*tb rl*/
         background-color: white;
 
-        header{
-            img{
+        header {
+            img {
                 display: block;
             }
         }
 
-        section.middle{
+        section.middle {
             margin: 3px 10px;
             background-image: url("../HUMIS_assets/files/uofu_medallion_rt.gif");
             background-position: bottom right;
             background-repeat: no-repeat;
 
-            > nav{
+            > nav {
                 text-align: right;
                 font-size: 10px;
 
-                a{
-                    color:black;
+                a {
+                    color: black;
                     text-decoration: none;
                     border-right: 1px solid black;
                     padding-right: 5px;
                     margin-left: 3px;
 
 
-                    &:hover{ /*pseudu class*/
+                    &:hover { /*pseudo class*/
                         text-decoration: underline;
+                        svg{
+                            border-bottom: 1px solid black;
+                        }
                     }
-                    &:last-of-type{
+
+                    &:last-of-type {
                         border-right: none;
                         padding-right: unset;
                     }
+
+                    svg {
+                        color: black;
+                    }
                 }
-                img{
-                    vertical-align: middle;
-                }
-                &.top-nav{ /*what are the properties */
+
+
+
+                &.top-nav { /*what are the properties */
                     text-transform: uppercase;
 
                     /*
@@ -71,25 +80,30 @@ body {
                     this is if we just if we want the undeline to be in the top nav
                     */
                 }
-                &.bottom-nav{
+
+                &.bottom-nav {
                     text-transform: lowercase;
                 }
             }
-            section.brown-box{
+
+            section.brown-box {
                 min-height: 400px; /*min height but can expand*/
                 background-color: #D2D2B8;
                 margin: 5px 0 50px;
                 padding: 10px 10px 10px 15px;
                 border-radius: 15px;
 
-                aside{
+                aside {
                     /*border: 1px solid black;*/
-                    &.left{
+
+                    &.left {
                         width: 27%;
                         float: left;
-                        nav{
+
+                        nav {
                             padding: 0 5px 0 30px;
                             /*border: 3px dotted blue;*/
+
                             a {
                                 display: block;
                                 color: black;
@@ -100,7 +114,7 @@ body {
                                 font-size: 10px;
 
 
-                                &:hover{
+                                &:hover {
                                     color: white;
                                     background-color: #505a2f;
 
@@ -108,18 +122,21 @@ body {
                             }
 
                         }
-                        div.links{
+
+                        div.links {
                             margin: 50px auto 0;
                             width: 153px; /*edit the width of the div container so we can amke it in the center*/
                         }
                     }
-                    &.right{
+
+                    &.right {
                         padding: 10px 10px;
                         margin: auto 10px auto 0;
                         background-color: white;
                         width: 63%;
                         float: right;
-                        h1{
+
+                        h1 {
                             text-transform: uppercase;
                             color: #575F3A;
                             font-size: 15px;
@@ -130,9 +147,11 @@ body {
 
                         p {
                             font-size: 12px;
-                            strong{
+
+                            strong {
                                 font-size: 13px;
                             }
+
                             &.link {
                                 text-align: right;
 
@@ -142,6 +161,7 @@ body {
                                     text-decoration: none;
                                     text-transform: uppercase;
                                     font-size: 11px;
+
                                     &:hover {
                                         text-decoration: underline;
                                     }
@@ -153,6 +173,7 @@ body {
                 }
             }
         }
+
         footer {
             background-color: #686F3E;
             color: white;
