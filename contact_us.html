@@ -10,11 +10,14 @@
             nav.inner-nav {
                 display: flex;
                 gap: 5px;
+
+                margin-top: 1.25rem;
+                margin-bottom: 1rem;
+                padding-bottom: 0.5rem;
+                border-bottom: 2px solid black;
+
                 font-size: 11px;
                 color: var(--burgundy);
-                border-bottom: 2px solid black;
-                padding-bottom: 15px;
-                margin-bottom: 15px; /*why did this work*/
 
                 a {
                     color: var(--burgundy);
@@ -24,7 +27,6 @@
                     &:hover {
                         text-decoration: underline;
                     }
-
                 }
             }
 
@@ -89,7 +91,7 @@
                 <a href="#">DEPARTMENT CALENDAR</a>
                 <a href="contact_us.html">CONTACT US</a>
                 <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15" viewBox="0 -30 200 200">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" viewBox="0 -30 200 200">
                         <path d="M86.5,155.8 h38 l31.8,-31.5 v-76 h14.8 v-46.3h-77v46.3h15.6v61h-46.5v-61h15.6v-46.3h-77v46.3h15.6v76l31.8,31.5h38z"
                               fill="currentColor"/>
                     </svg>
@@ -148,33 +150,6 @@
                         </p>
                     </div>
                 </section>
-
-                <form class="contact-form">
-                    <label>
-                        Name:
-                        <input type="text" name="name" placeholder="Enter your name"/>
-                    </label>
-                    <label>
-                        Phome:
-                        <input type="text" name="phone number" placeholder="Enter your phone number"/>
-                    </label>
-
-                    <label>
-                        Can we call you?
-                        <input type="checkbox" name="call-via phone"/>
-                    </label>
-
-                    <p>how would you prefer to be contacted</p>
-                    <label>
-                        <input type="radio" name="contact-preference" value="email"/> email<br/>
-                    </label>
-                    <label>
-                        <input type="radio" name="contact-preference" value="email"/> phone<br/>
-                    </label>
-
-                    <button type="submit">Submit</button>
-
-                </form>
 
             </main>
 

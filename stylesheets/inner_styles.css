@@ -2,11 +2,6 @@
 @import "typography.css";
 @import "layouts.css";
 
-:root {
-    --green: #676E3D;
-    --uofuRed: #D8343A;
-}
-
 body {
     background-color: #292827;
     display: flex;

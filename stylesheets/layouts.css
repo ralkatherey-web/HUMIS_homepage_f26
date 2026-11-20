@@ -79,17 +79,3 @@ section.horizontal-two-col-layout {
         }
     }
 }
-
-.contact-form{
-    border: 1px solid var(--uofuRed);
-    display: flex;
-    flex-direction: column;
-    margin-top: 5rem;
-    gap: 1rem;
-    align-items: flex-start;
-
-    label{
-        display: flex;
-        gap: 1rem;
-    }
-}
