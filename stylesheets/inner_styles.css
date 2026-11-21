@@ -119,12 +119,12 @@ body {
                     main {
                         min-height: 600px;
 
-                        h1 {
-                            text-transform: uppercase;
-                            color: var(--uofuRed);
-                            font-size: 20px;
-                            padding: 3px 3px;
-                        }
+                        /*h1 {*/
+                        /*    text-transform: uppercase;*/
+                        /*    color: var(--uofuRed);*/
+                        /*    font-size: 20px;*/
+                        /*    padding: 3px 3px;*/
+                        /*}*/
 
                     }
                 }

@@ -1,7 +1,7 @@
 section.horizontal-two-col-layout {
 
     display: flex;
-    min-height: 100%;
+    min-height: 85%;
     padding: 6px;
     gap: 1rem;
 
@@ -16,6 +16,7 @@ section.horizontal-two-col-layout {
 
             div.top{
                 div.category{
+                    margin-bottom: 15px;
                     a{
                         display:block;
                         text-decoration:none;
