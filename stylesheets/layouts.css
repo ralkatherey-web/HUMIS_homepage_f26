@@ -2,7 +2,7 @@ section.horizontal-two-col-layout {
 
     display: flex;
     min-height: 100%;
-    padding: 10px;
+    padding: 6px;
     gap: 1rem;
 
     aside {
@@ -12,6 +12,7 @@ section.horizontal-two-col-layout {
             display: flex;
             flex-direction: column;
             justify-content: space-between; /*make one at the top and bottom*/
+            border-right: 2px dashed black;
 
             div.top{
                 div.category{
@@ -76,6 +77,42 @@ section.horizontal-two-col-layout {
 
         &.right-column {
             width: 70%;
+
+            section {
+                p {
+                    /*font-size: 0.5rem;*/
+
+                    span {
+                        display: block;
+
+                        &.name {
+                            font-weight: bold;
+                        }
+
+                        &.title {
+                            font-size: 0.7rem;
+                            font-style: italic;
+                        }
+
+                    }
+                    .address, .phone-number, .email {
+                        font-size: 0.65rem;
+                        padding-left: 0.5rem;
+                    }
+
+                    a {
+                        display: block;
+                        color: black;
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+
+                    }
+
+                }
+            }
         }
     }
 }
