@@ -15,31 +15,37 @@ section.horizontal-two-col-layout {
             border-right: 2px dashed black;
             padding: 0 6px;
 
-            div.top{
-                div.category{
+            div.top {
+                div.category {
                     margin-bottom: 15px;
-                    a{
-                        display:block;
-                        text-decoration:none;
-                        color:black;
-                        font-size:0.75rem;
+
+                    a {
+                        display: block;
+                        text-decoration: none;
+                        color: black;
+                        font-size: 0.75rem;
                         margin-bottom: 0.2rem;
-                        &:hover{
-                            text-decoration:underline;
+
+                        &:hover {
+                            text-decoration: underline;
                         }
-                        &.active{
-                            font-weight:bold;
+
+                        &.active {
+                            font-weight: bold;
                         }
 
                     }
-                    &.sub{
+
+                    &.sub {
                         margin-left: 10px;
-                        a{
-                            color:var(--uofuRed);
+
+                        a {
+                            color: var(--uofuRed);
                         }
                     }
                 }
             }
+
             div.bottom {
                 p {
                     font-size: 0.5rem;
@@ -51,14 +57,15 @@ section.horizontal-two-col-layout {
                             font-size: 0.6rem;
                             font-weight: bold;
                         }
-                        &.title{
+
+                        &.title {
                             font-style: italic;
                             font-weight: bold;
                         }
                     }
 
                     a {
-                        display:block;
+                        display: block;
                         color: black;
                         text-decoration: none;
 
@@ -96,6 +103,7 @@ section.horizontal-two-col-layout {
                         }
 
                     }
+
                     .address, .phone-number, .email {
                         font-size: 0.65rem;
                         padding-left: 0.5rem;

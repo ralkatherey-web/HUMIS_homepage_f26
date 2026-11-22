@@ -1,37 +1,39 @@
-main{
-    aside.pull{
+main {
+    aside.pull {
         display: inline-block;
         max-width: 150px;
 
-        >img{
+        > img {
             width: 100%;
-            border-radius : 10px;
+            border-radius: 10px;
         }
 
-        &.right{
+        &.right {
             float: right;
             margin: 0 0 5px 15px;
         }
 
-        &.left{
+        &.left {
             float: left;
-            margin:0 15px 5px 0;
+            margin: 0 15px 5px 0;
         }
 
-        >h6{
+        > h6 {
             text-align: center;
         }
 
-        &:hover{
-            h6{
+        &:hover {
+            h6 {
                 text-decoration: underline;
             }
         }
     }
-    aside.center{
+
+    aside.center {
         img {
             border-radius: 20px;
         }
+
         margin: 15px;
     }
 }

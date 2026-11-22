@@ -88,7 +88,8 @@ body {
 
                             &:hover {
                                 text-decoration: underline;
-                                svg{
+
+                                svg {
                                     border-bottom: 1px solid black;
                                 }
                             }
