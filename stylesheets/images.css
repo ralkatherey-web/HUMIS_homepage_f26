@@ -30,9 +30,7 @@ main{
         }
     }
     aside.center{
-        /*display: flex;*/
         img {
-            border: 3px solid red;
             border-radius: 20px;
         }
         margin: 15px;

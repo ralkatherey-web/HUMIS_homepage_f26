@@ -49,25 +49,6 @@ body {
         font-size: 0.8rem;
         text-align: justify;
 
-        &.learn-more{
-            &.right{
-                text-align: right;
-            }
-            &.left{
-                text-align: left;
-            }
-
-            a{
-                color: var(--uofuRed);
-                text-decoration: none;
-                &:hover{
-                    text-decoration: underline;
-                }
-            }
-        }
-        &.bold{
-            font-weight: bold;
-        }
 
         /* @TODO: change the name */
         /*i made this for the link in staff page */
@@ -78,6 +59,30 @@ body {
                 color: var(--uofuRed);
             }
         }
+    }
+
+
+    .learn-more{
+        &.right{
+            text-align: right;
+        }
+        &.left{
+            text-align: left;
+        }
+
+        a{
+            color: var(--uofuRed);
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    .bold{
+        font-weight: bold;
+    }
+    .italic{
+        font-style: italic;
     }
 
 
