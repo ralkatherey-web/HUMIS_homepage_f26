@@ -22,9 +22,6 @@ body {
 
         section.middle {
             display: flex;
-            /*flex-direction: column;*/
-            /* flex column
-            justify content space-between*/
 
             section {
 
@@ -43,7 +40,7 @@ body {
                         a {
                             display: block;
                             color: black;
-                            text-decoration: none; /*removes the underline*/
+                            text-decoration: none;
                             border-bottom: 1px solid #505a2f;
                             padding: 10px 0 10px 10px;
                             text-transform: uppercase;
@@ -121,13 +118,6 @@ body {
                         min-height: 600px;
                         margin-top: 1.25rem;
                         padding: 0.5rem;
-                        /*h1 {*/
-                        /*    text-transform: uppercase;*/
-                        /*    color: var(--uofuRed);*/
-                        /*    font-size: 20px;*/
-                        /*    padding: 3px 3px;*/
-                        /*}*/
-
                     }
                 }
             }

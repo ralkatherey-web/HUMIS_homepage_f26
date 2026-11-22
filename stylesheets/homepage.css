@@ -1,17 +1,3 @@
-/*p{!* this is a decleration*!*/
-/*    border: 1px solid black; !* these are properties*!*/
-/*}*/
-
-
-/*header, section, nav, footer, footer {*/
-/*    border: 1px solid black;*/
-/*    !*width: 780px;         this is a way of doing it *!*/
-
-/*}*/
-/*header{*/
-/*    padding: 10px;*/
-/*}*/
-
 body {
     background-color: #292827;
     font-family: Arial, Helvetica, sans-serif;
@@ -64,17 +50,8 @@ body {
 
 
 
-                &.top-nav { /*what are the properties */
+                &.top-nav {
                     text-transform: uppercase;
-
-                    /*
-                    a{
-                        &:hover{ !*psudu class*!
-                            text-decoration: underline;
-                        }
-                    }
-                    this is if we just if we want the undeline to be in the top nav
-                    */
                 }
 
                 &.bottom-nav {
@@ -90,7 +67,6 @@ body {
                 border-radius: 15px;
 
                 aside {
-                    /*border: 1px solid black;*/
 
                     &.left {
                         width: 27%;
@@ -98,7 +74,6 @@ body {
 
                         nav {
                             padding: 0 5px 0 30px;
-                            /*border: 3px dotted blue;*/
 
                             a {
                                 display: block;
@@ -121,7 +96,7 @@ body {
 
                         div.links {
                             margin: 50px auto 0;
-                            width: 153px; /*edit the width of the div container so we can amke it in the center*/
+                            width: 153px; /*edit the width of the div container so we can make it in the center*/
                         }
                     }
 
