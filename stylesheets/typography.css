@@ -12,7 +12,7 @@ body {
         color: var(--uofuRed);
         margin-top: 0;
     }
-    h1, h2, h3{
+    h1, h2, h3, h5{
         text-transform: uppercase;
     }
 
@@ -38,6 +38,7 @@ body {
 
     h5{
         font-size: 1.125rem;
+
     }
 
     h6{
@@ -49,9 +50,6 @@ body {
         font-size: 0.8rem;
         text-align: justify;
 
-
-        /* @TODO: change the name */
-        /*i made this for the link in staff page */
         .emphasize{
             font-size: 1rem;
             font-weight: bold;
@@ -76,6 +74,10 @@ body {
             &:hover{
                 text-decoration: underline;
             }
+            &.black{
+                color: black;
+                font-weight: bold;
+            }
         }
     }
     .bold{
@@ -83,6 +85,9 @@ body {
     }
     .italic{
         font-style: italic;
+    }
+    .upper{
+        text-transform: uppercase;
     }
 
 

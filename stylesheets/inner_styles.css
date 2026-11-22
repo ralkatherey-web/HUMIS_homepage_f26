@@ -10,12 +10,13 @@ body {
 
     section.container {
         background-color: white;
-        width: 780px;
-        min-height: 600px;
+        width: 870px;
+        min-height: 700px;
 
         header {
             img {
                 display: block;
+                width: 100%;
             }
         }
 
@@ -32,7 +33,7 @@ body {
                     flex-direction: column;
                     align-items: center;
                     justify-content: space-between;
-                    width: 30%;
+                    width: 26%;
                     background-color: #F2F1F1;
                     border-right: 1px solid #B4B697;
 
@@ -69,11 +70,11 @@ body {
                 }
 
                 &.right-side {
-                    width: 70%;
+                    width: 73%;
                     display: flex;
                     justify-content: space-between;
                     flex-direction: column;
-                    padding: 5px 20px;
+                    padding: 5px 10px;
 
                     nav.secondary {
                         display: flex;
@@ -118,7 +119,8 @@ body {
 
                     main {
                         min-height: 600px;
-
+                        margin-top: 1.25rem;
+                        padding: 0.5rem;
                         /*h1 {*/
                         /*    text-transform: uppercase;*/
                         /*    color: var(--uofuRed);*/

@@ -13,6 +13,7 @@ section.horizontal-two-col-layout {
             flex-direction: column;
             justify-content: space-between; /*make one at the top and bottom*/
             border-right: 2px dashed black;
+            padding: 0 6px;
 
             div.top{
                 div.category{
